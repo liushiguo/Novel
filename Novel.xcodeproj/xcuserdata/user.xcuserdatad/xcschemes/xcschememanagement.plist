@@ -7,7 +7,25 @@
 		<key>Novel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CE1F89E620400EB900E20F4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE1F89FE20400EBA00E20F4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE1F8A0920400EBA00E20F4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

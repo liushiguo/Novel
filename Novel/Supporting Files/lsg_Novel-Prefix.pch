@@ -1,0 +1,34 @@
+//
+//  Novel-Prefix.pch
+//  Novel
+//
+//  Created by user on 2018/2/23.
+//  Copyright © 2018年 LSG. All rights reserved.
+//
+
+#ifndef Novel_Prefix_pch
+#define Novel_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+
+#import "lsg_UrlDefine.h"
+//#import "lsg_HandleUtil.h"//引入AppDelegate.h之后引入 顺序不要错
+#import "lsg_FontDefine.h"
+#import "lsg_ColorDefine.h"
+#import "lsg_FrameDefine.h"
+#import "lsg_OtherDefine.h"
+
+#endif /* Novel_Prefix_pch */
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+//#import <UIKit/UIKit.h>
+//#import <Foundation/Foundation.h>
+#endif
+#define DEVICE_TYPE_IPAD  ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
